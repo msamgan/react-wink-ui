@@ -2,6 +2,8 @@ import React from "react"
 import Header from "./components/Header";
 import TagList from "./components/TagList";
 import Intro from "./components/Intro";
+import RouteList from "./Content";
+import Content from "./Content";
 
 const App = () => {
     return (
@@ -11,7 +13,7 @@ const App = () => {
                 <TagList/>
             </div>
 
-            <Intro />
+            <Content />
         </div>
     );
 }

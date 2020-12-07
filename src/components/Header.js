@@ -23,7 +23,7 @@ const Header = () => {
                 </div>
                 <div className="col-8 d-flex justify-content-end align-items-center">
                     {pages.map(page =>
-                        <Link to={`/page/${page.slug}`} className="ml-4">{page.title}</Link>
+                        <Link to={`/page/${page.slug}`} className="ml-4">{page.title.toUpperCase()}</Link>
                     )}
                 </div>
             </div>
